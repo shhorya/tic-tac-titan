@@ -280,11 +280,11 @@ int main() {
             printBoard();
             
             if (checkWin('X')) {
-                printf(RED "Congratulations! You win!\n" RESET);
+                printf(RED "Victory! You're now the Ultimate Tic Tac Titan!\n" RESET);
                 break;
             }
             else if (checkWin('O')) {
-                printf(GREEN "AI wins! Better luck next time!\n" RESET);
+                printf(GREEN "The Ultimate AI wins! Time to rethink your strategy!\n" RESET);
                 break;
             }
             else if (isBoardFull()) {
